@@ -1,0 +1,45 @@
+
+  body{
+    font-size:3vh;
+    background:rgba(170, 170, 176, 0.447);
+    color:white;
+    text-shadow:0 0 2px #aaa;
+  }
+  .keyboard {
+    margin:30px auto;
+    width:90%;
+    height:450px;
+    background:rgb(169, 174, 174);
+    padding:30px 80px;
+    border-radius:10px;
+    border-bottom:6px solid rgb(86, 82, 84);
+  }
+  .key-row {
+    display:flex;
+    margin:0 auto 7px;
+    line-height:50px;
+  }
+  .key{
+    background:rgb(68, 67, 70);
+    margin:0 6px 0 0; 
+    text-align:center;
+    height:57px;
+    border:2px solid rgba(71, 75, 75, 0.08);
+    cursor:pointer;
+    border-radius:4px;
+  }
+  .one { flex:1; } /* one */
+  .one-one-half { flex:1.4; } /* One and one half */
+  .two { flex:2; } /* two */
+  .two-two-half { flex:1.5; } /* Two and two half */
+  .three { flex:3; } /* three */
+  .five { flex:5; }
+  .half{ flex:.5;}
+  
+  .key:hover{
+    box-shadow:0 0 10px 0 black;
+  }
+  .key:active{
+    background:white;  
+  
+  }
